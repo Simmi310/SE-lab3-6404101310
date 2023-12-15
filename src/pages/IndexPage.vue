@@ -12,7 +12,7 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'IndexPage'
+  name: ' IndexPage'
 })
 </script>
 <template>
@@ -28,7 +28,7 @@ export default defineComponent({
         label="ชื่อของคุณ"
         hint="ชื่อและนามสกุล"
         lazy-rules
-        :rules="[ val => val && val.length > 0 || 'Please type something']"
+        :rules="[ val => val && val.length > 0 || '   Please type something']"
       />
       <q-input
         filled
