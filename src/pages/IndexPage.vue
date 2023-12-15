@@ -34,7 +34,7 @@ export default defineComponent({
         filled
         type="number"
         v-model="age"
-        label="Your age *"
+        label=" 年 *"
         lazy-rules
         :rules="[
           val => val !== null && val !== '' || 'Please type your age',
